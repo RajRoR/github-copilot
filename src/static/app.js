@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="participants-section" style="margin-top:12px;">
               <strong>Participants:</strong>
               <ul class="participants-list" style="margin:8px 0 0 0; padding-left:18px;">
-                ${details.participants.map(email => `<li style='padding:2px 0; color:#3949ab;'>${email}</li>`).join('')}
+                ${details.participants.map(email => `<li>${email}</li>`).join('')}
               </ul>
             </div>
           `;
